@@ -1,18 +1,15 @@
 @mixin sm {
   @media (max-width: 738px) {
-    background-color: rgb(207, 255, 255);
     @content;
   }
 }
 @mixin md {
   @media (max-width: 1024px) {
-    background-color: rgb(128, 189, 255);
     @content;
   }
 }
 @mixin lg {
   @media (max-width: 1366px) {
-    background-color: rgb(219, 171, 250);
     @content;
   }
 }
